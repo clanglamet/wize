@@ -1,0 +1,21 @@
+/* General settings */
+
+.list_align {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+/* Content settings */
+
+.list_align img {
+  align-items: center;
+  justify-content: space-around;
+}
+
+.list_align span {
+  display: block
+  margin: 0 auto;
+  font-size: 20px;
+}
+

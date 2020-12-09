@@ -1,0 +1,29 @@
+/* Header of the page */
+
+.banner {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.1) 50%), url("../../images/background_picture_2.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 300px 0;
+  color: white;
+}
+
+/* Content of the header */
+
+.banner h1 {
+  font-size: 50px;
+  font-weight: bolder;
+
+}
+
+.banner h2 {
+  font-size: 30px;
+  font-weight: lighter;
+  margin-bottom: 40px;
+}
+
+.banner img {
+  float: left;
+  margin-top: -20px;
+  margin-right: 20px;
+}

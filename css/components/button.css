@@ -1,0 +1,39 @@
+/* General settings */
+
+.button-red {
+  background-color: #a54145;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  font-family: , sans-serif;
+}
+
+.button-white a:hover {
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.4);
+}
+
+.button-white {
+  display: block;
+  text-align: left;
+}
+
+
+.button-white a{
+  padding: 15px 36px;
+  margin-right: 70px;
+  margin-top: 35px;
+  display: inline-block;
+  font-family: 'Open Sans', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  color: #a54145;
+  text-decoration: none;
+  background-color: #fff;
+  border: none;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}

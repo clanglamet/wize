@@ -1,0 +1,241 @@
+<!DOCTYPE>
+<html lang="fr">
+  <head>  <!-- Information for the website -->
+    <title>Wize - Be smart and map your wine !</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+    <meta name="description" content="Wize, l'application qui permet de vous repérer dans le monde du vin !">
+    <script src="https://kit.fontawesome.com/a5d833735e.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" size="16x16" href="images/logo-site-color.png">
+  </head>
+
+  <body>
+    <!-- Header -->
+    <div class="banner">
+      <div class="container">
+        <img src="images/logo-site-color.png" alt="logo">
+        <h1>Wize</h1>
+        <h2>Be smart and map your wine !</h2>
+
+        <div class="button-white">
+          <a href="https://www.helloasso.com/associations/wize/formulaires/1/widget" target="_blank">Faire un don</a>
+          <a href="#sellers">M'inscrire</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar"> <!-- Sidebar will be uses later -->
+
+      <!-- "Home/accueil" is the first (1) container -->
+      <!-- Functions : (a) Introduce the team  and (b) redirect the users -->
+      <div class="container" id="accueil">
+        <h1>Accueil</h1>
+
+        <!-- funtion (1a) -->
+        <h2><i class="fas fa-users"></i>  L'équipe</h2>
+        <p>L’équipe est composée de 6 membres que sont : Célestin Langlamet, Agathe Laroche, Océane Levert, Alexandra Linquette, Alexia Lucas et Lénaé Marchesseau. Nous sommes tous en L3 PGE et intéressés par le monde viticole. Nous venons d’horizons différents : Célestin et Lénaé de la région bordelaise, Alexia et Alexandra de région parisienne, Océane de Nice et Agathe de Touraine. Cette multipolarité a été enrichissante et nous a permis d’acquérir des connaissances variées. <br> Alexia, notre cheffe de projet a su organiser toutes nos réunions et motiver l’équipe dès que nécessaire afin de mener ce projet à bien. </p>
+      </p>
+        <ul class="list_align">
+          <li>
+            <a href="https://www.linkedin.com/in/alexia-lucas-359698182/" target="_blank"><img src="images/team/alexia.jpg" alt="Alexia Lucas" class="avatar"><br></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/c%C3%A9lestin-langlamet-871b88195/" target="_blank"><img src="images/team/celestin.PNG" alt="Célestin Langlamet" class="avatar"><br></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/alexandra-linquette-8380831a2/" target="_blank"><img src="images/team/alexandra.jpg" alt="Alexandra Linquette" class="avatar"><br></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/agathe-laroche-a28932178/" target="_blank"><img src="images/team/agathe.jpg" alt="Agathe Laroche" class="avatar"><br></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/oc%C3%A9ane-levert-292018192/" target="_blank"><img src="images/team/oceane.jpg" alt="Océane Levert" class="avatar"></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/lenae.marchesseau" target="_blank"><img src="images/team/lenae.jpg" alt="Lenae Marchesseau" class="avatar"></a>
+          </li>
+        </ul>
+        <p style="color:grey; text-align:right">Cliquez sur les avatars pour accéder à nos profils LinkedIn... </p>
+
+        <!-- function (1b) -->
+        <h2><i class="fas fa-boxes"></i>  Rubriques</h2>
+
+        <div class="cards">
+
+          <div class="card">
+            <img src="images/projet.jpg" alt="présentation">
+            <a href="#presentation"><h3 class="button-red">Présentation du projet</h3></a>
+          </div>
+
+          <div class="card">
+            <img src="images/producteur.jpg" alt="futurs vendeurs">
+            <a href="#sellers"><h3 class="button-red">Futurs vendeurs</h3></a>
+          </div>
+
+          <div class="card">
+            <img src="images/investissement.jpg" alt="investisseurs">
+            <a href="#investors"><h3 class="button-red">Investisseurs</h3></a>
+          </div>
+
+          <div class="card">
+            <img src="images/contact.jpg" alt="contact">
+            <a href="#contact"><h3 class="button-red">Contactez-nous</h3></a>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- "Project presentation" is the second (2) container -->
+      <!-- Functions :  -->
+      <div class="container" id="presentation">
+        <h1>Présentation du projet</h1>
+
+
+        <h2><i class="fas fa-info"></i>  Résumé</h2>
+        <p>Le projet consiste en une application sous forme de carte et de géolocalisation qui permettrait de
+        découvrir le vignoble bordelais. Cette application permettra à son utilisateur de placer un nom, une
+        histoire et d’avoir accès aux différents services des vignobles partenaires.</p>
+        <h2><i class="fas fa-cogs"></i>  Fonctionnalités de l'application et services proposés</h2>
+        <p>L’application proposera des solutions marketing aux châteaux bordelais. Il faut la conceptualiser
+        avec deux interfaces : <strong>l’interface Château et l’interface Client.</strong></p>
+
+        <h3>Interface Client</h3>
+        <p>Lors de la première ouverture de l’application, l’utilisateur doit créer un compte
+        client. Il accède ensuite aux services destinés aux consommateurs (certains sont réservés aux
+        membres premium) que voici détaillés sous forme de liste :</p>
+        <ul class="list-decorated">
+          <li><span>La carte interactive : </span>cette interface a pour vocation de situer les lieux de
+          production des produits en vente sur l’application. L’utilisateur a la possibilité de rechercher
+          en fonction de la localisation. Cela peut être utile pour trouver des producteurs proches de
+          chez soi ou pour trouver facilement des évènements organisés par les châteaux lorsque l’on
+          visite la région viticole. </li>
+          <li><span>L'aspect historique : </span>lorsque l’utilisateur clique sur un château, il accède à son histoire,
+          ses caractéristiques, des chiffres clés, la classification de ses vins et les éventuelles médailles
+          associées. Si le château propose ses vins en vente sur le site, ou des offres de visites et
+          dégustations, l’utilisateur a la possibilité de commander ces produits ou de réserver des
+          créneaux de visite. </li>
+          <li><span>La Marketplace : </span>l’utilisateur peut directement rechercher un vin sur le
+          Marketplace de l’application s’il a une idée précise du produit qu’il recherche. Auquel cas,
+          il accède à un panel de produits disponibles sur l’application. Lorsqu’il clique sur l’un d’eux
+          il accède aux précisions à propos du produit et du producteur.</li>
+          <li><span><strong>(PREMIUM)</strong> Avantages : </span>15% de réduction lors des anniversaires, ventes privées,
+          réductions sur les visites / dégustations, offres exclusives et promotions sur certains produits.</li>
+        </ul>
+
+        <h3>Interface château</h3>
+        <p>Tout domaine viticole peut créer sa page sur l’application gratuitement, y
+        inscrire son histoire, ses caractéristiques et autres informations qui lui paraissent nécessaires.
+        Cependant, il souhaite profiter des services mis à disposition, il doit s’acquitter d’un abonnement.
+        Cet abonnement lui permet d’accéder aux fonctionnalités suivantes :</p>
+        <ul class="list-decorated">
+          <li><span>Création d’un Marketplace : </span>: le château peut mettre en ligne ses produits, les décrire, créer
+          une page de vente personnalisée et effectuer des ventes directement sur l’application.
+          </li>
+          <li><span>Gestion évènementielle : </span>le château peut gérer les visites et les évènements directement sur
+          l’application. Ainsi, en créant un évènement, le château doit renseigner un nom, une date,
+          un nombre de places disponibles…</li>
+        </ul>
+        <p>Plusieurs abonnement seront disponibles pour les châteaux; appelés respectivement abonnement Magnum, Jéroboam et
+        Mathusalem et donnant accès à plus de produits à vendre et plus d’évènements à créer chaque mois. </p>
+
+
+        <h2><i class="fas fa-user-tag"></i>  À qui s'adresse l'application ?</h2>
+        <p>L’application est à destination de <strong>tous types d’utilisateurs</strong> : passionnés de vignobles, visiteurs
+        du vignoble bordelais, locaux en quête d’en apprendre plus sur le patrimoine viticole
+        de la région mais également pour les touristes qui souhaiteraient connaitre l’un des savoir-faire les
+        plus prestigieux de France. Elle s’adresse également aux <strong>domaines viticoles et châteaux</strong> qui
+        pourront s’inscrire sur l’application afin de bénéficier de plus de visibilité. </p>
+
+        <h2><i class="fas fa-sign-in-alt"></i>  Les répercussions du projet</h2>
+        <p>Nous espérons sensibiliser les utilisateurs quant à leur consommation de vin et développer leurs
+        connaissances sur le sujet. Cela leur permettra d’en apprendre davantage sur les vendanges, en
+        passant par la fabrication, la composition du vin mais surtout l’histoire du domaine qui l’abrite. Elle
+        permettra d’attiser la curiosité des français mais aussi des touristes étrangers en mettant un point
+        d’honneur sur la richesse du patrimoine français. </p>
+        <p>De plus, nous espérons que l’efficacité de l’application aura un impact positif sur la <strong>fréquentation
+        du vignoble bordelais.</strong></p>
+        <p>Les vignerons auront quant à eux la possibilité de <strong>répertorier facilement leurs vins</strong> et de vendre
+        directement aux utilisateurs de l’application, ce qui leur permettra à terme d’augmenter leurs marges
+        (par rapport à d’autres voies de distribution). En effet, la version premium de l’application leur
+        permet à la fois de gagner en visibilité, de mettre à disposition des offres de visites et de dégustations
+        directes grâce à un service de réservation dans l’application. </p>
+
+      </div>
+
+
+
+
+
+      <!-- "Sellers" is the third (3) container -->
+      <!-- Functions :  -->
+      <div class="container" id="sellers">
+        <h1>Futurs vendeurs et châteaux</h1>
+        <p>Nous recherchons activement des pionners qui nous font confiance
+        pour utiliser notre plateforme comme outil marketing.
+        Wize vous permettra de mettre en ligne sur notre plateforme une version
+        dématérialisée de votre brochure, de votre boutique, de vos calendriers
+        événementiels, etc.</p>
+        <p>L'outil Wize sera pour vous l'occasion de disposer d'une interface
+        dynamique afin de générer des ventes en lignes et des répercussions sur vos activités quotidiennes. Vous pourrez :</p>
+        <ul class="list-decorated">
+          <li>Situer géographiquement votre château/entreprise et vous démarquer de vos concurrents</li>
+          <li>Partager votre histoire, le caractère de vos vins, votre expérience et des histoires quotidienne liées à la fabrication du vin</li>
+          <li>Créer une marketplace et générer des ventes en ligne</li>
+          <li>Gérer des événements directement sur Wize tels que : des visites, des salons, des prises de rendez-vous, etc.</li>
+        </ul>
+        <p>L'application aura pour vocation de digitaliser un marché qui a besoin de renouveau. Il a pour vocation d'offrir une plus grande visibilité aux créateurs de vins.</p>
+        <p>Nous mettons un point d'honneur à votre situation géographique pour que le consommateur se sente au plus proche de votre entreprise.</p>
+
+        <h2><i class="fas fa-pen-fancy"></i>  Formulaire d'inscription</h2>
+        <p>Afin de rendre possible ce projet, nous avons besoin d'entreprises et de producteurs qui nous accompagnent dès le lancement de cette application. <br>Si vous vous sentez intéressé par le concept, vous pouvez d'ores et déjà vous inscrire afin de nous témoigner votre soutien !</p>
+        <div class="typeform-widget" data-url="https://form.typeform.com/to/WiW3MUec?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+      </div>
+
+
+
+
+
+
+      <!-- "Investors " is the thouth (4) container -->
+      <!-- Functions :  -->
+      <div class="container" id="investors">
+        <h1>Investisseurs et participants</h1>
+        <h2>Devenez un parrain</h2>
+        <p>Pour nous aider à lancer l'application, nous avons besoin de financement. Si vous souhaitez parrainer l'application et devenir un initiateur de ce projet, vous pouvez nous joindre directement via la rubrique <span>contact</span> en bas de page. Nous pourrons également répondre à vos questions</p>
+        <h2>Aidez-nous grâce au crowdfunding</h2>
+        <p>Il est aussi possible de nous aider avec une contribution de votre choix et selon vos moyens. Nous optons pour le crowdfunding afin de disposer de fonds qui nous permettrons de financer l'application. Si le projet vous plait, et que vous considérez que nos valeurs sont en cohérence avec les autres, votre don nous sera d'une aide précieuse !</p>
+      </div>
+      <!-- Don avec Helloasso -->
+      <iframe id="haWidget" allowtransparency="true" scrolling="auto" src="https://www.helloasso.com/associations/wize/formulaires/1/widget" style="width:100%;height:750px;border:none;" onload="window.scroll(0, this.offsetTop)"></iframe>
+
+
+
+
+
+
+
+
+
+      <!-- "Contact" is the fifth (5) container -->
+      <!-- Functions :  -->
+      <div class="container" id="contact">
+        <h1>Contactez-nous</h1>
+        <div class="typeform-widget" data-url="https://form.typeform.com/to/Q5rVd0bM?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+
+        <ul class="social">
+          <li><i class="fas fa-at"></i><p><strong>wize.application@gmail.com</strong></p></li>
+          <li><i class="fas fa-phone-square"></i><p><strong>+33787797183</strong></p><p>Nous sommes joignables tous les jours de 8h à 18h</p></li>
+          <li><a href="#"><i class="fab fa-linkedin"></i></a><p>Retrouvez (bientôt) notre page entreprise LinkedIn !</p></li>
+          <li><a href="#"><i class="fab fa-facebook-square"></i></a><p>Et également (bientôt) notre page Facebook !</p></li>
+        </ul>
+      </div>
+
+
+
+
+    </div>
+  </body>
+</html>
+

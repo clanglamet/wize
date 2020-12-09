@@ -1,0 +1,26 @@
+.social {
+  width: 70%;
+  border-right: 5px solid #A59E9E;
+  padding-right: 75px;
+}
+
+.social i{
+
+  font-size: 40px;
+  margin-right: 20px;
+  color: #A59E9E;
+}
+
+.social li{
+  margin: 50px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.social p{
+  margin-bottom: 20px;
+  font-style: 15px;
+}
+
+.social a{
+  padding:0;
+}

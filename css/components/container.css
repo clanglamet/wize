@@ -1,0 +1,84 @@
+/* General settings*/
+
+.container {
+  width: 900px;
+  margin: 80 auto;
+  padding-left: 35px;
+}
+
+.sidebar .container {
+  border-left-style: solid;
+  border-left-width: 5px;
+}
+
+.sidebar .container h1 {
+  text-align: center;
+}
+
+.container p {
+  text-align: justify;
+}
+
+/* Responsive */
+
+@media (max-width: 1050px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 900px;
+  }
+}
+@media (max-width: 920px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 740px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+/* Rubrics' Colours */
+
+#accueil {
+  border-left-color: #a54145;
+}
+
+#presentation {
+  border-left-color: #A5585B;
+}
+
+#sellers {
+  border-left-color: #A57072;
+}
+
+#investors {
+  border-left-color: #A58788;
+}
+
+#contact {
+  border-left-color: #A59E9E;
+}
+
+/* Text formating */
+
+.list-decorated{
+  list-style: square;
+}
+
+strong {
+  font-weight: bold;
+}
+
+span {
+  color: #a54145;
+  font-weight: bold;
+}

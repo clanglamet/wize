@@ -1,0 +1,33 @@
+/* importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+/* importing component files */
+@import url('components/container.css');
+@import url('components/avatar.css');
+@import url('components/button.css');
+@import url('components/banner.css');
+@import url('components/card.css');
+@import url('components/list_align.css');
+@import url('components/social.css');
+
+/* General Settings */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Crimson Text', serif;
+}
+
+ul {
+  list-style: none;
+}
